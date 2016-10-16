@@ -1,0 +1,13 @@
+# SERVER SIDE PACKAGES
+node_modules
+
+# CLIENT SIDE PACKAGES
+client/node_modules
+client/bower_components
+client/typings
+
+# TYPESCRIPT
+client/app/*.js
+client/app/*.js.map
+client/app/**/*.js
+client/app/**/*.js.map

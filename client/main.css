@@ -1,0 +1,54 @@
+body {}
+
+.form {
+  margin: 20px 0;
+}
+
+input[type=text] {
+  width: calc(100% - 110px);
+  height: 34px;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.btn-save {
+  width: 80px;
+  margin-left: 20px;
+}
+
+.card {
+  min-height: 100px;
+  height: 200px;
+  max-height: 200px;
+  background-color: #eee;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h3 {
+  max-height: 80px;
+  margin: 0;
+  margin-bottom: 5px;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.card .name {
+  font-size: 18px;
+}
+
+.card button {
+  margin-top: 20px;
+  background-color: #cc5555;
+  color: white;
+  transition: all 300ms ease-in-out;
+}
+
+.card button:hover {
+  background-color: #dd5555;
+  color: white;
+}
